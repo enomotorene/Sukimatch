@@ -6,24 +6,27 @@
           <h3>SUKIMATCHが バナー制作のお悩み解決します!</h3>
           <h1 class="lead mb-0">バナー制作のお悩み解決します!</h1>
         </div>
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" >
+        <img src="../assets/img/bg-showcase-1.jpg" alt="Smiley face" height="auto" width="auto"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+          <h2>発注しやすい低価格</h2>
+          <p class="lead mb-0">1件500円からの低価格でいざ発注という際も安心してご発注いただけます。また内容に応じてクリエイターと個別の調整も可能◎低価格とはいえお取引中のサポートも付いておりますので、お気軽にご相談ください！</p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-6 text-white showcase-img">
+        <img src="../assets/img/bg-showcase-1.jpg" alt="Smiley face" height="auto" width="auto"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          <h2>1点から大量発注まで</h2>
+          <p class="lead mb-0">SUKIMATCHには全国〇〇人のクリエイターがあなたのバナー制作をサポートいたします！自社サイトバナー1点からでも、ECサイト向けの量産依頼まで対応可能です。お客様一人一人にあったご要望に、弊社のクリエーターたちがお答えいたします！</p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img">
+        <img src="../assets/img/bg-showcase-3.jpg" alt="Smiley face" height="auto" width="auto"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          <h2>最短1営業日から納品可能</h2>
+          <p class="lead mb-0">急にバナーが必要に...そんなお客様のお悩みもおまかせ下さい！制作会社への依頼とは違い、フレキシブルな働き方のクリエイターとお客様をマッチングできるSUKIMATCHでは24時間いつでも依頼が可能です！</p>
         </div>
       </div>
     </div>

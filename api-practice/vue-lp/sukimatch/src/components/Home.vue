@@ -6,7 +6,7 @@
   <Header></Header>
 
   <!-- Icons Grid -->
-  <Portfolio></Portfolio>
+  <!-- <Portfolio></Portfolio> -->
 
   <!-- Image Showcases -->
   <Services></Services>
@@ -71,7 +71,7 @@
 
 <script>
 import Header from './Header'
-import Portfolio from './Portfolio'
+//import Portfolio from './Portfolio'
 import Services from './Services'
 import ClickRegister from './ClickRegister'
 import Explain from './Explain'
@@ -82,7 +82,7 @@ export default {
   name: 'app',
   components: {
     Header,
-    Portfolio,
+    //Portfolio,
     Services,
     ClickRegister,
     Explain,
