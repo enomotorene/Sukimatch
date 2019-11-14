@@ -1,35 +1,62 @@
 <template>
     <section class="showcase">
     <div class="container-fluid p-0">
-      <div class="row no-gutters">
         <div class="col-lg-12 order-lg-1 my-auto showcase-text">
           <h3>SUKIMATCHとは</h3>
           <h1 class="lead mb-0">どんなサービス?</h1>
         </div>
-        <div class="col-lg-6 text-white showcase-img" >
-        <img src="../assets/img/bg-showcase-1.jpg" alt="Smiley face" height="auto" width="auto"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>発注しやすい低価格</h2>
-          <p class="lead mb-0">1件500円からの低価格でいざ発注という際も安心してご発注いただけます。また内容に応じてクリエイターと個別の調整も可能◎低価格とはいえお取引中のサポートも付いておりますので、お気軽にご相談ください！</p>
-        </div>
-      </div>
+
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img">
-        <img src="../assets/img/bg-showcase-1.jpg" alt="Smiley face" height="auto" width="auto"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>1点から大量発注まで</h2>
-          <p class="lead mb-0">SUKIMATCHには全国〇〇人のクリエイターがあなたのバナー制作をサポートいたします！自社サイトバナー1点からでも、ECサイト向けの量産依頼まで対応可能です。お客様一人一人にあったご要望に、弊社のクリエーターたちがお答えいたします！</p>
-        </div>
+         <!-- Heading Row -->
+    <div class="row align-items-center test">
+      <div class="col-lg-6">
+        <img class="img-fluid rounded " src="http://placehold.it/600x400" alt="">
       </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img">
-        <img src="../assets/img/bg-showcase-3.jpg" alt="Smiley face" height="auto" width="auto"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>最短1営業日から納品可能</h2>
-          <p class="lead mb-0">急にバナーが必要に...そんなお客様のお悩みもおまかせ下さい！制作会社への依頼とは違い、フレキシブルな働き方のクリエイターとお客様をマッチングできるSUKIMATCHでは24時間いつでも依頼が可能です！</p>
-        </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-6">
+        <h1 class="font-weight-light">バナー制作の困りごとをお手伝いします
+</h1>
+        <p>SUKIMATCHはバナー制作に特化したスキルマッチングサービスです。様々な得意ジャンルを持つクリエイターたちが、バナー作成で手が足りない、ちょっとだけ手伝って欲しいとお困りのあなたをサポートいたします。</p>
+    
       </div>
+      <!-- /.col-md-4 -->
     </div>
+      </div>
+    <!-- /.row -->
+         <!-- Heading Row -->
+         <div class="row no-gutters">
+    <div class="row align-items-center test">
+      <div class="col-lg-6">
+        <img class="img-fluid rounded " src="http://placehold.it/600x400" alt="">
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-6">
+        <h1 class="font-weight-light">希望に合うクリエイターに出会えます</h1>
+        <p>急なご依頼や大量作成など、制作担当者さんのお困りに合わせたクリエイターが見つかります。フィードバックを返すことでクリエイターも成長し、さらに”希望にマッチする”サー
+ビスをご提供いたします。</p>
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+         </div>
+
+
+    <div class="row no-gutters">
+    <div class="row align-items-center test">
+      <div class="col-lg-6">
+        <img class="img-fluid rounded " src="http://placehold.it/600x400" alt="">
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-6">
+        <h1 class="font-weight-light">バナー1件あたり500円から依頼が可能です</h1>
+        <p>アウトソーシングにコストの問題はつきものです。SUKIMACHはバナー作成がワンコインから出品されています。もちろん大量発注でまとまった金額でのご相談や、月額制などクリエイターと直接ご相談いただけます。</p>
+        
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    </div>
+    
+    <!-- /.row -->
+      </div>
   </section>
 </template>
 
@@ -40,5 +67,9 @@ export default {
 </script>
 
 <style>
+.test {
+    margin: 20px;
+    color: #f29211;
+}
 
 </style>
