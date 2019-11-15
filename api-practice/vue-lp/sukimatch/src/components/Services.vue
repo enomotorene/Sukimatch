@@ -1,6 +1,6 @@
 <template>
     <section class="showcase">
-    <div class="container-fluid p-0">
+    <div class="p-0">
       <div class="row no-gutters">
         <div class="col-lg-12 order-lg-1 my-auto showcase-text">
           <h3>SUKIMATCHが バナー制作のお悩み解決します!</h3>

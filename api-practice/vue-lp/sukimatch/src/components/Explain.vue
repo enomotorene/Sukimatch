@@ -1,6 +1,6 @@
 <template>
     <section class="showcase">
-    <div class="container-fluid p-0">
+    <div class="p-0">
         <div class="col-lg-12 order-lg-1 my-auto showcase-text">
           <h3>SUKIMATCHとは</h3>
           <h1 class="lead mb-0">どんなサービス?</h1>
