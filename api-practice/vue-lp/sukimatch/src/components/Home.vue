@@ -48,6 +48,7 @@ import Performance from './Performance'
 import Voice from './Voice'
 import Flow from './Flow'
 import Footer from './Footer'
+//import Signin from './Signin'
 
 
 export default {
@@ -61,7 +62,8 @@ export default {
     Performance,
     Voice,
     Flow,
-    Footer
+    Footer,
+    //Signin
     //Navigation
   }
 }

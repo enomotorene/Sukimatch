@@ -20,6 +20,11 @@ const router = new VueRouter({
             name: 'Register',
             component: load('Register')
         },
+        {
+            path: '/signin',
+            name: 'Signin',
+            component: load('Signin')
+        },
     ]
 })
 
