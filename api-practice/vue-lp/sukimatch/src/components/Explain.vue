@@ -10,13 +10,12 @@
          <!-- Heading Row -->
     <div class="row align-items-center test">
       <div class="col-lg-6">
-        <img class="img-fluid rounded " src="http://placehold.it/600x400" alt="">
+        <img class="img-fluid" src="../assets/img/sukimatch/explain1.jpg" alt="">
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-6">
-        <h1 class="font-weight-light">バナー制作の困りごとをお手伝いします
-</h1>
-        <p>SUKIMATCHはバナー制作に特化したスキルマッチングサービスです。様々な得意ジャンルを持つクリエイターたちが、バナー作成で手が足りない、ちょっとだけ手伝って欲しいとお困りのあなたをサポートいたします。</p>
+        <h1 class="font-weight-light">バナー制作の困りごとをお手伝いします</h1>
+        <p class="sk-p-text">SUKIMATCHはバナー制作に特化したスキルマッチングサービスです。様々な得意ジャンルを持つクリエイターたちが、バナー作成で手が足りない、ちょっとだけ手伝って欲しいとお困りのあなたをサポートいたします。</p>
     
       </div>
       <!-- /.col-md-4 -->
@@ -27,12 +26,12 @@
          <div class="row no-gutters">
     <div class="row align-items-center test">
       <div class="col-lg-6">
-        <img class="img-fluid rounded " src="http://placehold.it/600x400" alt="">
+        <img class="img-fluid" src="../assets/img/sukimatch/explain2.jpg" alt="">
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-6">
         <h1 class="font-weight-light">希望に合うクリエイターに出会えます</h1>
-        <p>急なご依頼や大量作成など、制作担当者さんのお困りに合わせたクリエイターが見つかります。フィードバックを返すことでクリエイターも成長し、さらに”希望にマッチする”サー
+        <p class="sk-p-text">急なご依頼や大量作成など、制作担当者さんのお困りに合わせたクリエイターが見つかります。フィードバックを返すことでクリエイターも成長し、さらに”希望にマッチする”サー
 ビスをご提供いたします。</p>
       </div>
       <!-- /.col-md-4 -->
@@ -43,12 +42,12 @@
     <div class="row no-gutters">
     <div class="row align-items-center test">
       <div class="col-lg-6">
-        <img class="img-fluid rounded " src="http://placehold.it/600x400" alt="">
+        <img class="img-fluid" src="../assets/img/sukimatch/explain3.jpg" alt="">
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-6">
         <h1 class="font-weight-light">バナー1件あたり500円から依頼が可能です</h1>
-        <p>アウトソーシングにコストの問題はつきものです。SUKIMACHはバナー作成がワンコインから出品されています。もちろん大量発注でまとまった金額でのご相談や、月額制などクリエイターと直接ご相談いただけます。</p>
+        <p class="sk-p-text">アウトソーシングにコストの問題はつきものです。SUKIMACHはバナー作成がワンコインから出品されています。もちろん大量発注でまとまった金額でのご相談や、月額制などクリエイターと直接ご相談いただけます。</p>
         
       </div>
       <!-- /.col-md-4 -->
@@ -70,6 +69,15 @@ export default {
 .test {
     margin: 20px;
     color: #f29211;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.sk-p-text {
+    color: #000000;
+    margin-top: 20px;
 }
 
 </style>

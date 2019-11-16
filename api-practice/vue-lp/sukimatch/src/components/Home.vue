@@ -5,6 +5,9 @@
   <!-- Masthead -->
   <Header></Header>
 
+   <!-- Top pic -->
+  <Ask></Ask>
+
   <!-- Icons Grid -->
   <!-- <Portfolio></Portfolio> -->
 
@@ -31,12 +34,13 @@
 
   <!-- Footer -->
   <Footer></Footer>
+  
   </div>
   </template>
 
 <script>
 import Header from './Header'
-//import Portfolio from './Portfolio'
+import Ask from './Ask'
 import Services from './Services'
 import ClickRegister from './ClickRegister'
 import Explain from './Explain'
@@ -50,7 +54,7 @@ export default {
   name: 'app',
   components: {
     Header,
-    //Portfolio,
+    Ask,
     Services,
     ClickRegister,
     Explain,
