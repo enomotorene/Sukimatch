@@ -10,7 +10,7 @@
          <!-- Heading Row -->
     <div class="row align-items-center test">
       <div class="col-lg-6">
-        <img class="img-fluid" src="../assets/img/sukimatch/explain1.jpg" alt="">
+        <img class="img-fluid explan-img" src="../assets/img/sukimatch/explain1.jpg" alt="">
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-6">
@@ -26,7 +26,7 @@
          <div class="row no-gutters">
     <div class="row align-items-center test">
       <div class="col-lg-6">
-        <img class="img-fluid" src="../assets/img/sukimatch/explain2.jpg" alt="">
+        <img class="img-fluid explan-img" src="../assets/img/sukimatch/explain2.jpg" alt="">
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-6">
@@ -42,7 +42,7 @@
     <div class="row no-gutters">
     <div class="row align-items-center test">
       <div class="col-lg-6">
-        <img class="img-fluid" src="../assets/img/sukimatch/explain3.jpg" alt="">
+        <img class="img-fluid explan-img" src="../assets/img/sukimatch/explain3.jpg" alt="">
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-6">
@@ -78,6 +78,11 @@ h1 {
 .sk-p-text {
     color: #000000;
     margin-top: 20px;
+}
+
+img.explan-img {
+    width: 80%;
+    height: 80%
 }
 
 </style>
