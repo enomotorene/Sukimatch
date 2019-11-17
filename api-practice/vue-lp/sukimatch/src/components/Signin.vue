@@ -1,16 +1,17 @@
 <template>
   <div id="signin">
-    <h2>サインイン</h2>
+    <h2 class="sk-reg-title">サインイン</h2>
 
     <!-- emailとpasswordの入力欄 -->
     <input type="email" placeholder="email" v-model="email">
     <input type="password" placeholder="Password" v-model="password">
-    <button @click="signIn">Signin</button>
+    <button class="btn-register" @click="signIn">Signin</button>
 
+    <hr>
     <!-- サインアップページ遷移ボタン -->
     <p>
       アカウントをお持ちではない方
-      <router-link to="/signup">新規作成</router-link>
+      <router-link to="/Register">新規作成</router-link>
     </p>
   </div>
 </template>
@@ -47,4 +48,15 @@ export default {
 </script>
 
 <style>
+.sk-reg-title {
+    margin-top: 20px;
+}
+
+.btn-register {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.btn-register:hover {background-color: #e7e7e7;}
 </style>

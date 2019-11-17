@@ -3,7 +3,7 @@
   <section class="page-section" id="services">
     <div class="container">
       <div class="signup">
-    <h2>サインアップ</h2>
+    <h2 class="sk-reg-title">サインアップ</h2>
     <!-- 登録フォーム -->
     <label class="fieldname" for="email_verification_key_email">メールアドレスで登録する</label><br>
     <input type="email" placeholder="email" v-model="email" ><br>
@@ -13,7 +13,7 @@
     <input type="text" placeholder="test" v-bind:value="test" >
     <p>{{ test }}</p> -->
     <input type="password" placeholder="password" v-model="password">
-    <button @click="signUp">登録</button>
+    <button class="btn-register" @click="signUp">登録</button>
 
     <hr>
     <!-- サインインへの遷移ボタン -->
@@ -22,7 +22,7 @@
       <router-link to="/signin">sign in now</router-link>
     </p>
   </div>
-　</div>
+</div>
 
     <hr>
 <!-- 
@@ -54,7 +54,7 @@ export default {
   name: "Singup",
   data() {
     return {
-      email: "default@email.com",
+      email: "",
       password: "",
       test: "test from data object of Vue.js"
     };
@@ -83,7 +83,7 @@ export default {
 </script>
 
 <style>
-
+/*
 .users-new_email div.new_email div.thirdparty ul{
     display: inline-block;
     text-align: left;
@@ -111,7 +111,6 @@ ul {
     display: inline-block;
     text-align: left;
     margin-left: 17px;
-    /* letter-spacing: -.40em; */
     width: 564px;
 }
 
@@ -173,5 +172,22 @@ ul.mixin-reset {
     background-image: linear-gradient(to bottom, #536da4, #3b5998);
     border: 1px solid #2f4588;
     border-bottom-color: #223262;
+}*/
+
+.sk-reg-title {
+    margin-top: 20px;
 }
+
+.btn-register {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.btn-register:hover {background-color: #e7e7e7;}
+
+input {
+    color: gray;
+}
+
 </style>
