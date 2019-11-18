@@ -10,7 +10,7 @@
          <!-- Heading Row -->
     <div class="row align-items-center">
       <div class="col-lg-6">
-        <img class="img-fluid sk-img" src="../assets/img/sukimatch/voice1.png" alt="">
+        <img class="img-fluid service-img" src="../assets/img/sukimatch/voice1.png" alt="">
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-6">
@@ -26,7 +26,7 @@
          <div class="row no-gutters row-margin">
     <div class="row align-items-center">
       <div class="col-lg-6">
-        <img class="img-fluid sk-img" src="../assets/img/sukimatch/voice2.png" alt="">
+        <img class="img-fluid service-img" src="../assets/img/sukimatch/voice2.png" alt="">
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-6">
@@ -63,9 +63,9 @@ export default {
     margin-top: 20px;
 }
 
-.sk-img {
-    width: 80%;
-    height: 80%;
+.service-img {
+    width: 70%;
+    height: 70%
 }
 
 </style>

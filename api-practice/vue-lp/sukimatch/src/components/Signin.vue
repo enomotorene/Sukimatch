@@ -4,8 +4,8 @@
 
     <!-- emailとpasswordの入力欄 -->
     <input type="email" placeholder="email" v-model="email">
-    <input type="password" placeholder="Password" v-model="password">
-    <button class="btn-register" @click="signIn">Signin</button>
+    <input type="password" placeholder="Password" v-model="password"><br>
+    <button class="btn-register" @click="signIn">Sign in</button>
 
     <hr>
     <!-- サインアップページ遷移ボタン -->
@@ -48,6 +48,10 @@ export default {
 </script>
 
 <style>
+#signin {
+  margin: 20px;
+}
+
 .sk-reg-title {
     margin-top: 20px;
 }
@@ -56,7 +60,12 @@ export default {
   background-color: white;
   color: black;
   border: 2px solid #e7e7e7;
+  margin-top: 10px;
 }
 
 .btn-register:hover {background-color: #e7e7e7;}
+
+input {
+  margin: 10px;
+}
 </style>

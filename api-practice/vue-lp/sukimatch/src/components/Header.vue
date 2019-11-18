@@ -55,8 +55,5 @@ a.sk-btn-color {
     border-radius: 30px;
 }
 
-.navbar-brand {
-    padding-right: 30px;
-    padding-left: 30px;
-}
+
 </style>

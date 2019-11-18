@@ -17,7 +17,7 @@
     
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid explan-img" src="../assets/img/sukimatch/service1.jpg" alt="">
+        <img class="img-fluid service-img" src="../assets/img/sukimatch/service1.jpg" alt="">
       </div>
       <!-- /.col-md-4 -->
     </div>
@@ -27,7 +27,7 @@
          <div class="row no-gutters sk-margin">
     <div class="row align-items-center convert--reserve row-margin">
       <div class="col-lg-6">
-        <img class="img-fluid explan-img" src="../assets/img/sukimatch/service2.jpg" alt="">
+        <img class="img-fluid service-img" src="../assets/img/sukimatch/service2.jpg" alt="">
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-6">
@@ -51,7 +51,7 @@
         
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid explan-img" src="../assets/img/sukimatch/service3.jpg" alt="">
+        <img class="img-fluid service-img" src="../assets/img/sukimatch/service3.jpg" alt="">
       </div>
       <!-- /.col-md-4 -->
     </div>
@@ -78,7 +78,7 @@ export default {
     margin-bottom: 10px;
 }
 
-img.explan-img {
+.service-img {
     width: 80%;
     height: 80%
 }

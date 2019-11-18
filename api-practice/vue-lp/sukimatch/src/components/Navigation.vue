@@ -3,7 +3,7 @@
     <div class="container" v-for="(linkObj, ind) in navList" :key="ind">
         <a class="navbar-brand sk-title-color" href="/">SUKIMATCH</a>
         <div>
-        <a href="/Signin" class="sk-btn-sign"><span>Sign in</span></a>
+        <a href="/Signin" class="sk-btn-sign"><span>サインイン</span></a>
         <a href="/Register" class="sk-btn-reg"><span>無料会員登録</span></a>
         </div>
     </div>
@@ -37,9 +37,10 @@ a.sk-btn-reg {
     background-color: #f25458;
     color: #ffffff;
     border-radius: 30px;
-    padding: 3px;
-    margin-left: 10px;
+    padding: 6px;
+    margin-left: 15px;
     text-decoration: none;
+    font-size: 10px;
 }
 
 a.sk-btn-reg:hover {
@@ -52,6 +53,7 @@ a.sk-btn-reg:hover {
 a.sk-btn-sign {
     text-decoration: none;
     color: #000;
+    font-size: 10px;
 }
 
 a.sk-btn-sign:hover {

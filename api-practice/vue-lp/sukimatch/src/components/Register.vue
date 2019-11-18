@@ -19,7 +19,7 @@
     <!-- サインインへの遷移ボタン -->
     <p>
       アカウントをすでにお持ちの方
-      <router-link to="/signin">sign in now</router-link>
+      <router-link to="/signin">サインイン</router-link>
     </p>
   </div>
 </div>
@@ -176,6 +176,10 @@ ul.mixin-reset {
 
 .sk-reg-title {
     margin-top: 20px;
+}
+
+.please_agree {
+  margin: 20px;
 }
 
 .btn-register {

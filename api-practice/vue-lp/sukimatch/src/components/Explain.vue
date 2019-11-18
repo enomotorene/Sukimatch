@@ -80,9 +80,9 @@ h1 {
     margin-top: 20px;
 }
 
-img.explan-img {
-    width: 80%;
-    height: 80%
+.explan-img {
+    width: 70%;
+    height: 70%
 }
 
 </style>

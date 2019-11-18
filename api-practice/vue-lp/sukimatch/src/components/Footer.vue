@@ -23,7 +23,7 @@
           <p class=" small mb-4 mb-lg-0 sk-title-color">&copy; copyright (c) 2019 SUKIMATCH</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0 mr-3">
+          <ul class="list-inline mb-0">
             <li class="list-inline-item">
               <a href="#">
                <i class="fa fa-facebook-square" style="font-size:36px"></i>
